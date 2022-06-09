@@ -265,6 +265,8 @@ body {
   max-width: 500px;
   padding: 10px 30px;
   background-color: #fff;
+  height : 50%; //お好みの高さで固定
+  overflow : auto; //状況に応じて縦スクロールバーが出現
 }
 
 .closeModal {
