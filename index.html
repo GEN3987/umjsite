@@ -25,6 +25,27 @@
   <script src="./imagesloaded.pkgd.min.js"></script>
   <link rel="stylesheet" href="./style.css">
   <script src="./menu.js"></script>
+  <style>
+    .btn-close{
+  display: inline-block;
+  padding:25px 0;
+}
+
+.btn-close::before,
+.btn-close::after {
+display: block;
+content: "";
+width: 50px;
+height: 1px;
+background: #000;
+}
+.btn-close::before {
+transform: rotate(-45deg);
+}
+.btn-close::after {
+transform: rotate(45deg);
+}
+</style>
   <!--  original -->
 </head>
 <body>
@@ -38,7 +59,8 @@
       <p>あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわゐゑをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽぁぃぅぇぉっゃゅょアイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヰヱヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォッャュョヴ、。ー～「」【】『』゛゜♪♭■□◆◇△▲▽▼◎○●◯‥…・∴∵※×〒!”#$%&'()=~|`{+*}<>?_-^\@[;:],./\！”＃＄％＆’（）＝~｜｀｛＋＊｝＜＞？＿－＾\＠［；：］，．／\abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ０１２３４５６７８９</p>
     </div>
     <div id="closeModal" class="closeModal">
-      ×
+<span class="btn-close">
+    </span>
     </div>
   </div>
 </section>
