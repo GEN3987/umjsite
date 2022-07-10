@@ -343,3 +343,16 @@ button {
 .coveranime {
     transform: scaleY(0);
 }
+
+/*スクロールバー全体*/
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+
+/*スクロールバーの動く部分*/
+::-webkit-scrollbar-thumb {
+  background-color: #acb242;
+  border-radius: 100px;
+  box-shadow:0 0 0 1px #acb242;
+}
