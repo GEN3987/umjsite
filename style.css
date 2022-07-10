@@ -344,6 +344,8 @@ button {
     transform: scaleY(0);
 }
 
+
+
 /*スクロールバー全体*/
 ::-webkit-scrollbar {
     width: 2px;
