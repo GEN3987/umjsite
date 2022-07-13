@@ -264,8 +264,8 @@ body {
   max-width: 500px;
   padding: 10px 30px;
   background-color: #fff;
-  height : 50%; //お好みの高さで固定
-  overflow-y: scroll;   //縦スクロールバー
+  height : 50%; 
+  overflow-y: scroll;   
 }
 
 .closeModal {
