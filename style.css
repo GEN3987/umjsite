@@ -358,3 +358,20 @@ button {
   border-radius: 100px;
   box-shadow:0 0 0 1px #acb242;
 }
+
+.fadeIn{
+animation-name:fadeInAnime;
+animation-duration:1s;
+animation-fill-mode:forwards;
+opacity:0;
+}
+
+@keyframes fadeInAnime{
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
